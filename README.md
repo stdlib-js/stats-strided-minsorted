@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@esm/index.mjs';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@v0.1.1-esm/index.mjs';
 ```
 
 #### minsorted( N, x, strideX )
@@ -151,7 +151,7 @@ var v = minsorted.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@esm/index.mjs';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@v0.1.1-esm/index.mjs';
 
 var x = linspace( -5.0, 5.0, 10 );
 console.log( x );
