@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-minsorted/tags). For example,
+
+```javascript
 import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@v0.1.1-deno/mod.js';
 ```
 
@@ -146,7 +151,7 @@ var v = minsorted.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@v0.1.1-deno/mod.js';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-minsorted@deno/mod.js';
 
 var x = linspace( -5.0, 5.0, 10 );
 console.log( x );
